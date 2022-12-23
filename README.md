@@ -5,17 +5,17 @@
 	Нашим завданням було написати бібліотеку для аналізу зв’язності графів. Бібліотека записує графи у словники, ключі яких - вершини графа, а значення кожного ключа - це список суміжних вершин. 
 
 	Для цього ми написали такі основні функції:
-•	read_graph(path, directed) — Бабенко Аліна
-•	write_graph(path, directed) — Симко Олександра
-•	find_connected_components(graph) — Юрга Юлія
-•	find_strongly_connected_components(graph) — Сагайдак Юрій
-•	find_connectivity_spots(graph) — Дмитрів Христина
-•	find_bridges(graph) — Азарова Олена
+	read_graph(path, directed) — Бабенко Аліна
+	write_graph(path, directed) — Симко Олександра
+	find_connected_components(graph) — Юрга Юлія
+	find_strongly_connected_components(graph) — Сагайдак Юрій
+	find_connectivity_spots(graph) — Дмитрів Христина
+	find_bridges(graph) — Азарова Олена
 
 Додаткові функції:
-•	bfs(graph, start)
-•	find_cycle(graph, vertex)
-•	del_edge(graph, edge)
+	bfs(graph, start)
+	find_cycle(graph, vertex)
+	del_edge(graph, edge)
 
 Трохи теорії з дискретної математики:
 	Граф називається зв’язним, якщо між кожними двома вершинами існує хоча б один шлях.
